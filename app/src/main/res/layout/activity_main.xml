@@ -72,6 +72,11 @@
         android:layout_marginTop="8dp"
         android:text="Sound Settings" />
 
+    <Button
+        android:id="@+id/airplaneModeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Airplane Mode Settings" />
     <TextView
         android:id="@+id/outputText"
         android:layout_width="match_parent"
