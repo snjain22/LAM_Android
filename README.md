@@ -4,6 +4,11 @@ This project is an application that enables users to interact with a Large Langu
 
 ---
 
+## Working Demonstration
+
+<img src="https://github.com/snjain22/LAM_Android/blob/main/demo.gif" width="250" alt="Demo">
+
+---
 ## **Methodologies**
 
 ### **Approach 1: Offline LLM Finetuned on Android System Calls**
@@ -133,10 +138,6 @@ The model can perform the following actions
 
     The LLM decides the function to be called and calls the respective function with the appropriate arguments. The working demo can be seen below.
 
----
-## Working Demonstration
-
-<img src="https://github.com/snjain22/LAM_Android/blob/main/demo.gif" width="250" alt="Demo">
 
 ---
 
