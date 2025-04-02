@@ -136,7 +136,7 @@ The model can perform the following actions
 ---
 ## Working Demonstration
 
-<img src="https://github.ecodesamsung.com/SRIB-PRISM/MIT_24OD09MIT_Automation_of_Android_Based_Actions_Using_Large_Action_Models/blob/main/demo.gif?raw=true" width="250" alt="Demo">
+<img src="https://github.com/snjain22/LAM_Android/blob/main/demo.gif" width="250" alt="Demo">
 
 ---
 
