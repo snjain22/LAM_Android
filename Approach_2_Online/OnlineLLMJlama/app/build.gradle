@@ -1,0 +1,65 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.example.onlinellmjlama'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.example.onlinellmjlama"
+        minSdk 28
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+//        largeHeap="true"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+//dependencies {
+//    implementation group: 'com.github.tjake', name: 'jlama-core', version: '0.8.4'
+//    implementation("com.google.code.findbugs:jsr305:3.0.2") {
+//        exclude group: "com.google.code.findbugs", module: "annotations"
+//    }
+//    implementation libs.appcompat
+//    implementation libs.material
+//    implementation libs.constraintlayout
+//    implementation libs.navigation.fragment
+//    implementation libs.navigation.ui
+//    testImplementation libs.junit
+//    androidTestImplementation libs.ext.junit
+//    androidTestImplementation libs.espresso.core
+//}
+dependencies {
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
+    implementation libs.converter.gson
+    implementation libs.logging.interceptor
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.constraintlayout
+    implementation libs.navigation.fragment
+    implementation libs.navigation.ui
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}
