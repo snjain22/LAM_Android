@@ -1,4 +1,4 @@
-# **MIT_24OD09MIT: Automation of Android-Based Actions Using Large Action Models**
+# **Automation of Android-Based Actions Using Large Action Models**
 
 This project is an application that enables users to interact with a Large Language Model (LLM) to execute system commands on an Android device. It incorporates two approaches: **Offline LLM finetuned on Android System Calls** and **Online LLM integrated with a local Tool Calling Agent**.
 
